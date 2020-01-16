@@ -17,6 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from accounts import urls as urls_accounts
 from cars import urls as urls_cars
+from search import urls as urls_search
 from cars.views import cars
 from django.views import static
 from .settings import MEDIA_ROOT
@@ -26,5 +27,6 @@ urlpatterns = [
     url(r'^$', cars, name='index'),
     url(r'^accounts/', include(urls_accounts)),
     url(r'^cars/', include(urls_cars)),
+    url(r'^search/', include(urls_search)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT})
 ]
