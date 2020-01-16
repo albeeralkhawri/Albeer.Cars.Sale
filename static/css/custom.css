@@ -66,10 +66,12 @@ caption p {
     border: 1px solid #ddd;
 }
 
-.car-description {
+.car-brand {
     min-height: 40px;
 }
-
+ .display{
+     text-align: center;
+ }
 
 p{
     text-align: center;
