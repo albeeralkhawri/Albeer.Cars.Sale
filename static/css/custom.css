@@ -7,6 +7,18 @@ body {
 h3{
     font-family: 'Baloo Bhai', cursive;
 }
+
+.car-img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 5%;
+    margin-left: 10px
+}
+
+.goback{
+    float: right
+}
     
 footer {
     margin-top: 40px;
