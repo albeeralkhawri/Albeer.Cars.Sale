@@ -34,8 +34,3 @@ $(function() {
 function currentDiv(n) {
   showDivs(slideIndex = n);
 }
-
-// for car image in car details
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
