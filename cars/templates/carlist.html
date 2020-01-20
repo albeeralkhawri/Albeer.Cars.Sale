@@ -1,29 +1,26 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 <div class="row row-flex">
     {% for Car in cars %}
-        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
-            <div class="panel-body">
-                <div class="car materialboxed" style="background-image: url('{{ MEDIA_URL }}{{ Car.image }}')"></div>
-                <h3>{{ Car.model }}</h3>
-                <p class="car-brand">{{ Car.brand}}</p>
-                <p>{{ Car.base_price }}</p>
-                <form method="post" action="{% url 'details'  %}">
-                   {% csrf_token %}
-                    <div class="center">
-                        <button class="btn btn-warning btn-sm" type="submit">More details</button>
-                    </div>
-                </form> 
-                <form method="post" action="{% url 'add_to_cart' Car.id %}">
-                    {% csrf_token %}
-                    <div class="input-group">
-                        <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
-                        <span class="input-group-btn">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
+        <div class="panel-body">
+            <div class="car materialboxed" style="background-image: url('{{ MEDIA_URL }}{{ Car.image }}')"></div>
+            <h3>{{ Car.brand }} - {{ Car.model }}</h3>
+            <p> € {{ Car.base_price }}</p>
+            <form method="post" action="{% url 'details' Car.id %}">
+                {% csrf_token %}
+                <div class="center">
+                    <button class="btn btn-warning btn-sm" type="submit">More details</button>
+                </div>
+            </form>
+            <form method="post" action="{% url 'add_to_cart' Car.id %}">
+                {% csrf_token %}
+                <div class="input-group">
+                    <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
+                    <span class="input-group-btn">
                             <button class="btn btn-success" type="submit">Add</button>
                         </span>
-                    </div>
-                </form>      
+                </div>
+            </form>
         </div>
     </div>
     {% endfor %}
