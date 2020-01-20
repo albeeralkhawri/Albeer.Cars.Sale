@@ -4,5 +4,5 @@ from .views import details
 
 urlpatterns = [
     url(r'^$', cars, name='cars'),
-    url(r'^details', details, name='details')
+    url(r'^details/([0-9]+)', details, name='details')
 ]
