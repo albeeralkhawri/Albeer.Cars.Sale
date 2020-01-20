@@ -30,7 +30,3 @@ $(function() {
     return false;
     });
 });
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
