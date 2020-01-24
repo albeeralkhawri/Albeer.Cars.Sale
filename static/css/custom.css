@@ -13,7 +13,8 @@ h3{
     height: 200px;
     float: right;
     margin-top: 5%;
-    margin-left: 10px
+    margin-left: 10px;
+    margin-bottom: 5%;
 }
 
 .goback{
@@ -91,6 +92,15 @@ caption p {
      text-align: center;
  }
 
+input{
+    border-radius: 10px;
+    outline: none
+}
+.search{
+    border-radius: 10px;
+    outline: none;
+    background-color: blue
+}
 p{
     text-align: center;
     font-size: x-large
