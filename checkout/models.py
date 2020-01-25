@@ -24,4 +24,4 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return "{0} {1} @ {2}".format(
-            self.quantity, self.Car.model, self.Car.base_price)
+            self.quantity, self.cars.model, self.cars.base_price)
