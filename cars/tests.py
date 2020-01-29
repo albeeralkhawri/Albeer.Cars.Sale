@@ -9,6 +9,6 @@ class CarTests(TestCase):
     """
 
     def test_str(self):
-        test_name = Car(model='A cars')
+        test_name = Car(model='A cars', base_price=10, engine_size=10, year=2020)
         test_name.save()
         self.assertEqual(test_name.model, 'A cars')
