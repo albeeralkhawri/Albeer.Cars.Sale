@@ -170,7 +170,6 @@ STRIPE_SECRET = os.getenv('STRIPE_SECRET')
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
