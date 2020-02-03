@@ -128,20 +128,21 @@ The tests.py file was run and it was error free as shown in the pictures below. 
   - When log out, the user back to cars page
 
 - Password reset
-  - I tried to Click forgot my password on the login page
+
+  1- I tried to Click forgot my password on the login page
  <img src="https://www.up-00.com/i/00157/vqjobcx7dls4.png">
-  - I entered the account email address
+  2- I entered the account email address
  <img src="https://www.up-00.com/i/00157/macdemtj483u.png"> 
  <img src="https://www.up-00.com/i/00157/gzym25r1tmak.png">
  <img src="https://www.up-00.com/i/00157/zak5s30ncv9c.png">
-  - Then I received an email from king.alber93@gmail.com to my private email address
+  3- Then I received an email from king.alber93@gmail.com to my private email address
  <img src="https://www.up-00.com/i/00157/6i2aflkvh8ct.png">
  <img src="https://www.up-00.com/i/00157/fsis4e1x3ghd.png">
-  - The information received by e-mail has been verified as correct information from which the link was followed
+  4- The information received by e-mail has been verified as correct information from which the link was followed
  <img src="https://www.up-00.com/i/00157/t1rcmn6gbtse.png">
-  - Then enter a new password and re-enter it again for confirmation, and then click on Reset
+  5- Then enter a new password and re-enter it again for confirmation, and then click on Reset
  <img src="https://www.up-00.com/i/00157/3d1jn5xhcsut.png">
-  - I tried to use the link again after setting the password, but it does not work, it only works once, and this picture is below in which shows this
+  6- I tried to use the link again after setting the password, but it does not work, it only works once, and this picture is below in which shows this
  <img src="https://www.up-00.com/i/00157/lwg0y6lko0k7.png">
 
 - Cart test when add a cars from cars page can see the cars in cart page if the user didn't write a number can't add items to cart page, and this pictures are below in which shows this
