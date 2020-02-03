@@ -10,9 +10,9 @@
 
 # UX
 
-##### My goal in this project is clear: selling cars, earning money from them, enabling the user to see cars and details for each car, searching through the car model, adding the car to the shopping basket, and then paying the amount, and no user can pay the amount except that he logs in or registers as a new user.
+##### My goal in this project is clear: selling cars, earning money from them, enabling the user to see cars and details for each car, searching through the car model, adding the car to the cart, and then paying the amount, and no user can pay the amount except that  log in or registers as a new user.
 
-###### This project is designed in a very easy way so that the site can be used by all different societal groups and all ages.
+###### This project is designed in a very easy way so that the site can be used by all different ages.
 
 
 #### <p align="center">This is the sitemap</p>
