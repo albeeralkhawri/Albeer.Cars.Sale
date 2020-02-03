@@ -103,16 +103,16 @@ The tests.py file was run and it was error free as shown in the pictures below. 
 ###### The initiation was working perfectly and did not encounter any errors
 
 - The register was test in this way below
- - I created multiple accounts and made sure they work
- - After creating several accounts, I checked the admin panel to ensure that it is there in the Users section
- - I confirmed the user’s demands about making the account, which is a name with a number or similar to that, email and password, and confirm the password, should be user do that to make register
- - When register, the user can view the profile
- - When register, the Navbar menu will be change log in to log out and register to profile
- - When register, the user can see the checkout and payment information
- - When register, the user can log in agen if logged out earlier
- - I tried to submit an empty form and got an error message
- - I tried to submit an incomplete form and got an error message
- - I tried to register with a username that already exists
+  - I created multiple accounts and made sure they work
+  - After creating several accounts, I checked the admin panel to ensure that it is there in the Users section
+  - I confirmed the user’s demands about making the account, which is a name with a number or similar to that, email and password, and confirm the password, should be user do that to make register
+  - When register, the user can view the profile
+  - When register, the Navbar menu will be change log in to log out and register to profile
+  - When register, the user can see the checkout and payment information
+  - When register, the user can log in agen if logged out earlier
+  - I tried to submit an empty form and got an error message
+  - I tried to submit an incomplete form and got an error message
+  - I tried to register with a username that already exists
 
 - The Log in was test in this way below
   - When log in, the Navbar menu will be change log in to log out and register to profile
@@ -122,29 +122,29 @@ The tests.py file was run and it was error free as shown in the pictures below. 
   - I tried to submit an empty form and got an error message
 
 - When Log out was test in this way below
- - When log out, the Navbar menu will be change log out to log in and profile to register
- - When log out, the user can't view the profile
- - When log out, the user can't see the checkout and payment information
- - When log out, the user back to cars page
+  - When log out, the Navbar menu will be change log out to log in and profile to register
+  - When log out, the user can't view the profile
+  - When log out, the user can't see the checkout and payment information
+  - When log out, the user back to cars page
 
 - Password reset
- - I tried to Click forgot my password on the login page
+  - I tried to Click forgot my password on the login page
  <img src="https://www.up-00.com/i/00157/vqjobcx7dls4.png">
- - I entered the account email address
+  - I entered the account email address
  <img src="https://www.up-00.com/i/00157/macdemtj483u.png"> 
  <img src="https://www.up-00.com/i/00157/gzym25r1tmak.png">
  <img src="https://www.up-00.com/i/00157/zak5s30ncv9c.png">
- - Then I received an email from king.alber93@gmail.com to my private email address
+  - Then I received an email from king.alber93@gmail.com to my private email address
  <img src="https://www.up-00.com/i/00157/6i2aflkvh8ct.png">
  <img src="https://www.up-00.com/i/00157/fsis4e1x3ghd.png">
- - The information received by e-mail has been verified as correct information from which the link was followed
+  - The information received by e-mail has been verified as correct information from which the link was followed
  <img src="https://www.up-00.com/i/00157/t1rcmn6gbtse.png">
- - Then enter a new password and re-enter it again for confirmation, and then click on Reset
+  - Then enter a new password and re-enter it again for confirmation, and then click on Reset
  <img src="https://www.up-00.com/i/00157/3d1jn5xhcsut.png">
- - I tried to use the link again after setting the password, but it does not work, it only works once, and this picture is below in which shows this
+  - I tried to use the link again after setting the password, but it does not work, it only works once, and this picture is below in which shows this
  <img src="https://www.up-00.com/i/00157/lwg0y6lko0k7.png">
 
- - Cart test when add a cars from cars page can see the cars in cart page if the user didn't write a number can't add items to cart page, and this pictures are below in which shows this
+- Cart test when add a cars from cars page can see the cars in cart page if the user didn't write a number can't add items to cart page, and this pictures are below in which shows this
  <p align="center">
  <img width="200" height="200" src="https://www.up-00.com/i/00157/58q0k18yqhjn.png">
  <img width="200" height="200" src="https://www.up-00.com/i/00157/u2m1yhcflcvi.png">
